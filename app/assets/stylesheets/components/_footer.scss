@@ -1,0 +1,19 @@
+footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #11111147;
+  height: auto;
+  width: 100vw;
+  padding-top: 20px;
+  color: #969598;
+}
+
+.footer .nav-link {
+  color: white;
+}
+
+.footer .nav-link:hover {
+  color: #5f5f61;
+}

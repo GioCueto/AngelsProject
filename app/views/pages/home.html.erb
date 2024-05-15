@@ -1,2 +1,39 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div style="position: relative; padding-top: 28%; overflow: hidden;">
+  <video id="video" style="position: absolute; top: 0; left: 0; width: 100%; height: 168%; object-fit: cover;" autoplay muted loop>
+    <source src="<%= asset_path('fondo_home.mp4') %>" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+<hr class="sin-color">
+
+<div class="card">
+  <div class="content">
+    <div class="text">
+      <h2>Angel Córdova Alcaraz</h2>
+
+      <hr class="sin-color">
+
+      <p>
+        Licenciado en Derecho por parte de la Facultad de Derecho de la Barra Nacional de Abogados, cuenta con una especialidad en Prevención y Persecución de Operaciones con Recursos de Procedencia Ilícita por parte del Instituto Nacional de Ciencias Penales (INACIPE), diplomado en materia de Derecho Inmobiliario por la Universidad del Valle de México y Maestría en Derecho de la Empresa por parte de la Universidad Panamericana.
+      </p>
+      <p>
+        Tiene más de 13 años de experiencia proporcionando apoyo legal en consultoría, derecho de la empresa, derecho corporativo, derecho comparado, negociación de contratos internacionales, prevención de lavado de dinero, anticorrupción, compliance y derecho financiero, a diferentes sectores como el financiero, turístico, inmobiliario, educativo, transporte, automotriz y productos de consumo.
+      </p>
+      <p>
+        Ha participado en diferentes reestructuras corporativas, fusiones y adquisiciones de empresas nacionales y multinacionales. Además, ha impartido diversos cursos en materia de prevención de lavado de dinero y ética en materia corporativa para diferentes organismos.
+      </p>
+    </div>
+    <div class="image">
+      <%= image_tag "angelcordovafoto.png", alt: "Foto de Angel Córdova Alcaraz" %>
+    </div>
+  </div>
+</div>
+
+<hr class="sin-color">
+<hr class="sin-color">
+<hr class="sin-color">
+<hr class="sin-color">
+<hr class="sin-color">
+<hr class="sin-color">
+<hr class="sin-color">
