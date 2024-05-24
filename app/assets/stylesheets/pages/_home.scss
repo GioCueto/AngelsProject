@@ -1,20 +1,17 @@
-// Specific CSS for your home-page
+// Specific SCSS for your home-page
 
 body {
-  background: rgb(16,15,16);
-  background: linear-gradient(77deg, rgba(16,15,16,1) 0%, rgba(23,20,25,1) 25%, rgba(32,32,35,1) 50%, rgba(23,20,25,1) 75%, rgba(8,8,8,1) 100%);
+  background: rgb(16, 15, 16);
+  background: linear-gradient(77deg, rgba(16, 15, 16, 1) 0%, rgba(23, 20, 25, 1) 25%, rgba(32, 32, 35, 1) 50%, rgba(23, 20, 25, 1) 75%, rgba(8, 8, 8, 1) 100%);
   object-fit: cover;
   color: #eaeaea;
-
 }
-
 
 .lato-thin {
   font-family: "Lato", sans-serif;
   font-weight: 100;
   font-style: normal;
   font-size: 14px;
-
 }
 
 .lato-light {
@@ -78,22 +75,17 @@ body {
   font-style: normal;
 }
 
-/*
-  <uniquifier>: Use un nombre de clase único y descriptivo
-  <weight>: Usa un valor de 100 a 900
-*/
-
 .card {
-  width: 74%;
-  padding: 25px;
+  width: 80%;
+  padding: 15px;
   margin: 20px auto;
   box-shadow: 0 1px 13px 0 rgba(247, 242, 141, 0.2);
   transition: 0.3s;
   border-radius: 5px;
   overflow: hidden;
-  background: rgb(21,19,23);
-  background: linear-gradient(77deg, rgba(21,19,23,1) 0%, rgba(28,26,30,1) 16%, rgba(30,29,33,1) 29%, rgba(28,26,30,0.7164916137353379) 43%, rgba(8,12,24,1) 61%);
-
+  background: linear-gradient(77deg, rgba(21, 19, 23, 1) 0%, rgba(28, 26, 30, 1) 16%, rgba(30, 29, 33, 1) 29%, rgba(28, 26, 30, 0.7164916137353379) 43%, rgba(8, 12, 24, 1) 61%);
+  background:red!important;
+  
   .content {
     display: flex;
     flex-direction: row;
